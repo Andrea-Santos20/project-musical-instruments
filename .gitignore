@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignorar diretórios do sistema e de usuário do Windows
+../../../AppData/
+../../../Contacts/
+../../../Documents/
+../../../Downloads/
+../../../Favorites/
+../../../IdeaProjects/'Ambiente de Rede/': Permission denied
+warning: could not open directory 'Configurações Locais/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Dados de Aplicativos/': Permission denied
+warning: could not open directory 'Menu Iniciar/': Permission denied
+warning: could not open directory 'Meus Documentos/': Permission denied
+warning: could not open directory 'Modelos/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
