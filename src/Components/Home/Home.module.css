@@ -1,0 +1,54 @@
+.principal {
+  background-color: #acbbd4;
+    /* display: flex;
+    flex-direction: row; */
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    
+  }
+
+  .imgPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 0.6rem;
+    background: rgba(255, 255, 255, 1.5);
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 1.2);
+    
+  }
+   
+  .title {    
+    display: flex;
+    justify-content: center;
+    align-center: center;
+    text-align: center;
+    color:#243443;
+    font-family: "Inter";
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.5);
+
+    margin: 3rem;
+    gap: 3rem;
+    
+  }
+  
+  .paragraph {
+    /* display: flex; */
+    text-align: justify;
+    color:#1b3954;
+    font-size: 1.5rem;
+    font-family: "Inter";
+    font-weight: bold;
+    margin: 4rem;
+  }  
+
+
+
+
+ 

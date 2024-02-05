@@ -1,0 +1,47 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
+
+header .start {
+  display: flex;  
+  background: #403c93;
+  padding: 0.8rem;  
+  position: fixed; /* Define a posição como fixa */
+  top: 2rem;
+  
+  z-index: -1000; /* Define uma ordem de empilhamento para garantir que o cabeçalho esteja acima de outros elementos */
+  width: calc(100% - 4rem); /* Subtrai a quantidade de preench */
+    
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  
+  padding: 0.8rem;
+  margin: 1.rem;
+  background-color: #403c93;
+  list-style: none;
+  border: none;
+  gap: 1.5rem;
+}
+
+.nav a {
+  background-color: #403c93;
+  color: #fff; 
+  list-style: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold; 
+  transition: color 0.3s ease; 
+}
+
+.nav a:hover {
+  color: #739cc5;
+}

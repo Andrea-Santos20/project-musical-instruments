@@ -1,0 +1,138 @@
+.section {
+  background-color: #acbbd4;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  
+}
+
+.titleSection {     
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  font-family: "Inter";
+  font-size: 1.6rem;
+  color: #141c52;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  
+}
+
+.filterName {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  height: 50ps;
+  gap: 10px; 
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 1.5rem 2.5rem 1.5rem; 
+ 
+}
+
+.filterName input {
+  height: 6rem;     
+  padding: 0.2rem 5rem;
+  font-size: 1rem;  
+  border: 0.09rem solid #414083; 
+  border-radius: 0.5rem; 
+  margin: 1.5rem;
+}
+
+.buttonClear {
+  background-color: #141c52; 
+  color: #fff; 
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+}
+
+.buttonClear:hover {
+  background-color: #4c4990; 
+}
+
+.cardFilter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+
+.filterText {
+  font-family: "Inter";
+  font-weight: bold;
+  margin-left: 0.8rem;
+}
+
+.filterButton {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;  
+align-items: center;
+justify-content: center;
+gap: 1rem;
+} 
+
+.button {
+  background-color: #66707a; 
+  color: #fff; 
+  padding: 0.6rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.button:hover {
+  background-color: #20245e; 
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  
+  color: #20245e;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-bottom: 4rem;
+  gap: 1rem;
+}
+
+.filter select {
+  padding: 0.4rem 10rem;
+  font-family: "EB Garamond", serif;
+  padding-left: 0.4rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #141c52;
+  border: 0.08rem solid #414083;
+  border-radius: 0.5rem; 
+}
+
+.button.down {  
+  transform: rotate(180deg); /* Ajuste a rotação conforme necessário */
+}
+
+
+.sectionCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 20px; 
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  margin: 0 auto 2.5rem auto; 
+
+}
+
+.information {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #101e7a;
+  font-weight: bold;
+  
+}

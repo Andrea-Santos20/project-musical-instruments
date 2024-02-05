@@ -5,7 +5,8 @@
         "familia": "Cordas",
         "som": "Produzido pela vibração das cordas",
         "timbre": "Agudo",
-        "origem": "Italia"
+        "origem": "Italia",
+        "imagem": "../public/violino.jpg"
     },
 
     {
@@ -14,7 +15,8 @@
         "familia": "Cordas",
         "som": "Produzido pela vibração das cordas",
         "timbre": "Grave",
-        "origem": "Veneza"
+        "origem": "Veneza",
+        "imagem": "../public/contrabaixo.jpg"
     },
 
     
@@ -24,7 +26,8 @@
         "familia": "Cordas",
         "som": "Produzido pela vibração das cordas",
         "timbre": "Agudo",
-        "origem": "Oriente Medio"
+        "origem": "Oriente Medio",
+        "imagem": "../public/harpa-irlandesa.jpg"
     },
 
     {
@@ -33,7 +36,8 @@
         "familia": "Cordas",
         "som": "Produzido pela vibração das cordas",
         "timbre": "Grave",
-        "origem": "Italia"
+        "origem": "Italia",
+        "imagem": "../public/violoncelo.jpg"
     },
 
     {
@@ -42,7 +46,8 @@
         "familia": "Sopro",
         "som": "Produzido pelo movimento do ar no seu interior",
         "timbre": "Agudo / Grave",
-        "origem": "Belga"
+        "origem": "Belga",
+        "imagem": "../public/saxofone.jpg"
     },
 
     {
@@ -51,7 +56,8 @@
         "familia": "Sopro",
         "som": "Produzido pelo movimento do ar no seu interior",
         "timbre": "Agudo",
-        "origem": "Alemanha"
+        "origem": "Alemanha",
+        "imagem": "../public/flauta-transversal.jpg"
     },
 
     {
@@ -60,7 +66,8 @@
         "familia": "Sopro",
         "som": "Produzido pelo movimento do ar no seu interior",
         "timbre": "Agudo",
-        "origem": "Alemanha (versão melhorada)"
+        "origem": "Alemanha (versão melhorada)",
+        "imagem": "../public/trompa.jpg"
     },
 
     {
@@ -69,7 +76,8 @@
         "familia": "Sopro",
         "som": "Produzido pelo movimento do ar no seu interior",
         "timbre": "Agudo / Grave",
-        "origem": "Egito"
+        "origem": "Egito",
+        "imagem": "../public/trompete.jpg"
     },
 
     {
@@ -78,7 +86,8 @@
         "familia": "Percussao",
         "som": "Produzido pela vibração de uma mambrana ou de uma superficie",
         "timbre": "Grave",
-        "origem": "Estados Unidos"
+        "origem": "Estados Unidos",
+        "imagem": "../public/bateria.jpg"
     },
 
     {
@@ -87,24 +96,27 @@
         "familia": "Percussao",
         "som": "Produzido pela vibração de uma mambrana ou de uma superficie",
         "timbre": "Agudo / Grave",
-        "origem": "Egito"
+        "origem": "Egito",
+        "imagem": "../public/tambores.jpg"
     },
 
     {
         "id": 11,
-        "nome": "Chilofone",
+        "nome": "Xilofone",
         "familia": "Percussao",
         "som": "Produzido pela vibração de uma mambrana ou de uma superficie",
         "timbre": "Agudo / Grave",
-        "origem": "Africa"
+        "origem": "Africa",
+        "imagem": "../public/xilofone.jpg"
     },
 
     {
-        "id": 11,
-        "nome": "Trompete",
+        "id": 12,
+        "nome": "Tamborim",
         "familia": "Percussao",
         "som": "Produzido pela vibração de uma mambrana ou de uma superficie",
         "timbre": "Agudo",
-        "origem": "Egito"
+        "origem": "Africa",
+        "imagem": "../public/Tamborim.jpg"
     }
 ]

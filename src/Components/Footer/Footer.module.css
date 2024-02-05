@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;    
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #403c93;
+    margin-top: 2rem;
+    bottom: 0;
+    position: fixed;
+    z-index: 500;
+   
+  }
+  
+  .footer p {
+    background-color: #403c93;
+    color: #ffff;
+    font-family: "EB Garamond", serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  

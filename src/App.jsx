@@ -1,15 +1,16 @@
-//import Header from "./components/Header"
-import Home from "../src/Home"
-import Footer from "../src/Footer"
+import Header from "./Components/Header"
+import Home from "./Components/Home"
+import Footer from "./Components/Footer"
+import SectionCard from "./Components/Card/SectionCard/SectionCard"
 
 
 function App() {
   
   return (
     <>
-      {/* <Header /> */}
-        <Home />
-        
+      <Header />
+      <Home />
+      <SectionCard />  
       <Footer /> 
         
     </>
